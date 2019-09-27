@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="104,62" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="ctr_Txt" exported="true" pages="0,装备,1,其他,2,宝物,3,印记,4,仓库" selected="0"/>
+  <displayList>
+    <image id="n1_htcn" name="_n1" src="htcnw" fileName="TY-yeqian/yeqian_youce_off.png" pkg="6qgaw8m3" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+    </image>
+    <image id="n2_htcn" name="_n2" src="htcnx" fileName="TY-yeqian/yeqian_youce_on.png" pkg="6qgaw8m3" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <text id="n3_htcn" name="_n3" xy="4,-1" size="96,61" fontSize="26" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="装备">
+      <gearText controller="ctr_Txt" pages="1,2,3,4" values="其他|宝物|印记|仓库" default="装备"/>
+    </text>
+  </displayList>
+  <Button mode="Radio" downEffect="scale" downEffectValue="1.20"/>
+</component>

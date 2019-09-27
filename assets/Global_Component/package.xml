@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6jxl5kus" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="htcn0" name="Item.xml" path="/" exported="true"/>
+    <component id="htcna" name="btnClose.xml" path="/" exported="true"/>
+    <component id="htcn2" name="CommonBtn.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="Global_Component"/>
+</packageDescription>

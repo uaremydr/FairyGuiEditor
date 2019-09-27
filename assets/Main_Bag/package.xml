@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6q5x6imr" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="htcn0" name="L0_F_M_Bag.xml" path="/" exported="true"/>
+    <component id="htcn1" name="btnLeft.xml" path="/"/>
+    <image id="it0r15" name="015b1456cd26db32f875520f3f7a84.jpg" path="/"/>
+    <component id="lr1216" name="shop.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="Main_Bag"/>
+</packageDescription>

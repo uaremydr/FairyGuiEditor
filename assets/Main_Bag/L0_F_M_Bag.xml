@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <controller name="c1" pages="1,空,0,商店" selected="0">
+    <action type="play_transition" fromPage="0" toPage="1" transition="t1"/>
+    <action type="play_transition" fromPage="1" toPage="0" transition="t0"/>
+  </controller>
+  <displayList>
+    <image id="n10_it0r" name="_bg" src="it0r15" fileName="015b1456cd26db32f875520f3f7a84.jpg" xy="0,0" size="1280,720">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n1_htcn" name="itemList" xy="103,77" size="1068,415" layout="flow_hz" overflow="scroll" lineGap="14" colGap="16" defaultItem="ui://6jxl5kushtcn0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n2_htcn" name="btnClose" src="htcna" fileName="btnClose.xml" pkg="6jxl5kus" xy="1234,9" scale="1.5,1.5">
+      <relation target="" sidePair="top-top,right-right"/>
+    </component>
+    <list id="n4_htcn" name="leftList" xy="1170,77" size="103,355" overflow="scroll" lineGap="4" defaultItem="ui://6q5x6imrhtcn1">
+      <item controllers="ctr_Txt,0"/>
+      <item controllers="ctr_Txt,1"/>
+      <item controllers="ctr_Txt,2"/>
+      <item controllers="ctr_Txt,3"/>
+      <item controllers="ctr_Txt,4"/>
+    </list>
+    <component id="n5_htcn" name="oneKeyUse" src="htcn2" fileName="CommonBtn.xml" pkg="6jxl5kus" xy="185,591" group="n8_htcn">
+      <Button title="一键使用" titleColor="#ffffff"/>
+    </component>
+    <component id="n6_htcn" name="farReset" src="htcn2" fileName="CommonBtn.xml" pkg="6jxl5kus" xy="359,591" group="n8_htcn">
+      <Button title="远程回收" titleColor="#ffffff"/>
+    </component>
+    <component id="n7_htcn" name="portableShop" src="htcn2" fileName="CommonBtn.xml" pkg="6jxl5kus" xy="540,591" group="n8_htcn">
+      <Button title="随身商店" titleColor="#ffffff"/>
+    </component>
+    <group id="n8_htcn" name="btnGroup" xy="185,591" size="491,54" advanced="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </group>
+    <text id="n9_htcn" name="ItemNumInfo" xy="68,519" size="86,39" fontSize="30" color="#ffffff" autoSize="none" text="4/200">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </text>
+    <graph id="n12_wefg" name="comMask" xy="0,0" size="1280,720" alpha="0.5" type="rect" fillColor="#ff000000">
+      <gearDisplay controller="c1" pages="0"/>
+    </graph>
+    <component id="n11_lr12" name="comShop" src="lr1216" fileName="shop.xml" xy="431,95" pivot="0.5,0.5">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </component>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" target="n11_lr12" tween="true" startValue="0,0" endValue="1,1" duration="12" ease="Elastic.Out"/>
+    <item time="12" type="Scale" target="n11_lr12" tween="true" startValue="1,1" ease="Elastic.Out"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Scale" target="n11_lr12" tween="true" startValue="1,1" endValue="0,0" duration="12" label2="close" ease="Elastic.In"/>
+    <item time="12" type="Scale" target="n11_lr12" label="close" tween="true" startValue="0,0" ease="Elastic.In"/>
+  </transition>
+</component>

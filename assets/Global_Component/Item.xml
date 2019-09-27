@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="92,92">
+  <controller name="ctr_Color" pages="0,白,1,白2,2,橙,3,红,4,金,5,蓝,6,绿,7,紫" selected="0"/>
+  <controller name="ctr_IsSelect" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n0_htcn" name="bgColor" xy="-2,-1" size="80,80" scale="1.2,1.2" url="ui://6qgaw8m3htcn2" autoSize="true">
+      <gearIcon controller="ctr_Color" pages="0,1,2,3,4,5,6,7" values="ui://6qgaw8m3htcn2|ui://6qgaw8m3htcn1|ui://6qgaw8m3htcn3|ui://6qgaw8m3htcn4|ui://6qgaw8m3htcn5|ui://6qgaw8m3htcn6|ui://6qgaw8m3htcn7|ui://6qgaw8m3htcn8"/>
+    </loader>
+    <image id="n1_htcn" name="_n1" src="htcn9" fileName="TY-wupinkuang/xuanzhong.png" pkg="6qgaw8m3" xy="-5,-4" scale="1.1,1.1">
+      <gearDisplay controller="ctr_IsSelect" pages="1"/>
+    </image>
+  </displayList>
+</component>

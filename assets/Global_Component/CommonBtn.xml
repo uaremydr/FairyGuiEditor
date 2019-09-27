@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="136,54" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <image id="n0_htcn" name="_n0" src="htcn14" fileName="btn/btn_lan.png" pkg="6qgaw8m3" xy="0,0" size="136,54">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_htcn" name="title" xy="3,5" size="129,47" fontSize="26" color="#ffffff" align="center" vAlign="middle" autoSize="none" text=""/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.80"/>
+</component>

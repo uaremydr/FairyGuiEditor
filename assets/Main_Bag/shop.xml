@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400">
+  <displayList>
+    <image id="n0_lr12" name="_n0" src="htcnz" fileName="TY-yeqian/yeqian_zuoce_off.png" pkg="6qgaw8m3" xy="0,0" size="400,400"/>
+    <list id="n1_lr12" name="listShop" xy="54,60" size="310,301" layout="flow_hz" overflow="scroll" lineGap="10" colGap="10" defaultItem="ui://6jxl5kushtcn0">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n2_lr12" name="btnClose" src="htcna" fileName="btnClose.xml" pkg="6jxl5kus" xy="368,-11"/>
+  </displayList>
+</component>

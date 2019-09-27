@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6qgaw8m3" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="htcn1" name="pinji_bai-2.png" path="/TY-wupinkuang/" exported="true"/>
+    <image id="htcn2" name="pinji_bai.png" path="/TY-wupinkuang/" exported="true"/>
+    <image id="htcn3" name="pinji_cheng.png" path="/TY-wupinkuang/" exported="true"/>
+    <image id="htcn4" name="pinji_hong.png" path="/TY-wupinkuang/" exported="true"/>
+    <image id="htcn5" name="pinji_jin.png" path="/TY-wupinkuang/" exported="true"/>
+    <image id="htcn6" name="pinji_lan.png" path="/TY-wupinkuang/" exported="true"/>
+    <image id="htcn7" name="pinji_lv.png" path="/TY-wupinkuang/" exported="true"/>
+    <image id="htcn8" name="pinji_zi.png" path="/TY-wupinkuang/" exported="true"/>
+    <image id="htcn9" name="xuanzhong.png" path="/TY-wupinkuang/" exported="true"/>
+    <image id="htcni" name="biaoqian_1.5beiyuanbao.png" path="/TY-yeqian/" exported="true"/>
+    <image id="htcnj" name="biaoqian_jueban.png" path="/TY-yeqian/" exported="true"/>
+    <image id="htcnk" name="biaoqian_tuijian.png" path="/TY-yeqian/" exported="true"/>
+    <image id="htcnl" name="biaoqian_weijihuo.png" path="/TY-yeqian/" exported="true"/>
+    <image id="htcnm" name="biaoqian_weiyongyou.png" path="/TY-yeqian/" exported="true"/>
+    <image id="htcnn" name="biaoqian_xin.png" path="/TY-yeqian/" exported="true"/>
+    <image id="htcno" name="biaoqian_yichuandai.png" path="/TY-yeqian/" exported="true"/>
+    <image id="htcnp" name="biaoqian_yiyongyou.png" path="/TY-yeqian/" exported="true"/>
+    <image id="htcnq" name="biaoqian_zhuangbeizhong.png" path="/TY-yeqian/" exported="true"/>
+    <image id="htcnr" name="shangfangxiaoyeqian_off.png" path="/TY-yeqian/" exported="true"/>
+    <image id="htcns" name="shangfangxiaoyeqian_on.png" path="/TY-yeqian/" exported="true"/>
+    <image id="htcnt" name="xin.png" path="/TY-yeqian/" exported="true"/>
+    <image id="htcnu" name="yeqian_heng_off.png" path="/TY-yeqian/" exported="true"/>
+    <image id="htcnv" name="yeqian_heng_on.png" path="/TY-yeqian/" exported="true"/>
+    <image id="htcnw" name="yeqian_youce_off.png" path="/TY-yeqian/" exported="true"/>
+    <image id="htcnx" name="yeqian_youce_on.png" path="/TY-yeqian/" exported="true"/>
+    <image id="htcny" name="yeqian_zuoce_hui.png" path="/TY-yeqian/" exported="true"/>
+    <image id="htcnz" name="yeqian_zuoce_off.png" path="/TY-yeqian/" exported="true" scale="9grid" scale9grid="48,22,96,6"/>
+    <image id="htcn10" name="yeqian_zuoce_on.png" path="/TY-yeqian/" exported="true"/>
+    <image id="htcn11" name="zuocexiaoyeqian_off.png" path="/TY-yeqian/" exported="true"/>
+    <image id="htcn12" name="zuocexiaoyeqian_on.png" path="/TY-yeqian/" exported="true"/>
+    <image id="htcn13" name="btn_guanbi.png" path="/TY-wupinkuang/" exported="true"/>
+    <image id="htcn14" name="btn_lan.png" path="/btn/" exported="true"/>
+  </resources>
+  <publish name="Global_Texture"/>
+</packageDescription>
